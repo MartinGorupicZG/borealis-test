@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap');
+
+:root {
+	--white: #fff;
+	--grey: #666;
+	--font-main: 'Montserrat', sans-serif;
+	--font-description: 'Charm', cursive;
+
+	--color-main: #000033;
+	--black: #000;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+
+	@media only screen and (max-width: 1007px) {
+		font-size: 57%;
+	}
+
+	@media only screen and (max-width: 830px) {
+		font-size: 50%;
+	}
+}
+
+body {
+	font-family: var(--font-main);
+	font-weight: 400;
+	line-height: 1.6;
+	overflow-y: scroll;
+	scrollbar-width: none;
+	/* Firefox */
+	-ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+	/* WebKit */
+	width: 0;
+	height: 0;
+}
+.App {
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	place-items: center;
+}
+.main__btn {
+	width: 25rem;
+	height: 7rem;
+	color: var(--color-main);
+	border: 3px solid var(--color-main);
+	font-size: 2rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.cupon__input__label.valid {
+	border-bottom: #006600;
+}
+.valid {
+	color: #006600;
+	font-size: 2.5rem;
+}

@@ -1,0 +1,11 @@
+.background {
+	width: 80vw;
+	height: 90vh;
+	display: grid;
+	background: #fff;
+	border: 1px solid #000;
+
+	grid-template-columns: 1fr;
+	grid-template-rows: 10% 1fr;
+	position: relative;
+}

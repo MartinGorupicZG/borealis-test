@@ -1,0 +1,40 @@
+.buttonNext {
+	width: 14rem;
+	height: 5rem;
+	border: 3px solid var(--color-main);
+	color: var(--color-main);
+	font-size: 1.9rem;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	position: absolute;
+	bottom: 3%;
+	right: 4%;
+}
+.button__icon__next {
+	font-size: 2rem;
+	color: var(--color-main);
+	margin-left: 1rem;
+}
+.buttonBack {
+	width: 14rem;
+	height: 5rem;
+	border: 3px solid var(--color-main);
+	color: var(--color-main);
+	font-size: 1.9rem;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	position: absolute;
+	bottom: 3%;
+	right: 20%;
+}
+.button__icon__back {
+	font-size: 2rem;
+	color: var(--color-main);
+	margin-right: 1rem;
+}
